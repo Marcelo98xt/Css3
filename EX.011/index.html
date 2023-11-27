@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+
+</head>
+<body>
+    <h1>Imagens dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente dimunua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="Image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo aúdio</h1>
+    <P>Vamos aprender a reproduzir aúdio no HTML5</P>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/Raga Legacy - Hanu Dixit.mp3" type="audio/mpeg">
+        <source src="media/Raga Legacy - Hanu Dixit.ogg" type="audio/ogg">
+        <source src="media/Raga Legacy - Hanu Dixit.wav" type="audio/wav">
+    </audio>
+</body>
+</html>
